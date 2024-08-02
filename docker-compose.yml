@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   fhir-converter:
     image: ghcr.io/cdcgov/phdi/fhir-converter:latest
