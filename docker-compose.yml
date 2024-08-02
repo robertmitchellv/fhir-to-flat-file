@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  fhir-converter:
+    image: ghcr.io/cdcgov/phdi/fhir-converter:latest
+    container_name: fhir-converter
+    ports:
+      - "8080:8080"
+    networks:
+      - dibbs_network
+
+  message-parser:
+    image: ghcr.io/cdcgov/phdi/message-parser:latest
+    container_name: message-parser
+    ports:
+      - "8081:8081"
+    platform: linux/amd64
+    networks:
+      - dibbs_network
+
+networks:
+  dibbs_network:
+    driver: bridge
