@@ -3,7 +3,7 @@ services:
     image: ghcr.io/cdcgov/phdi/fhir-converter:latest
     container_name: fhir-converter
     ports:
-      - "8080:8080"
+      - "8082:8080"
     networks:
       - dibbs_network
 
@@ -11,7 +11,7 @@ services:
     image: ghcr.io/cdcgov/phdi/message-parser:latest
     container_name: message-parser
     ports:
-      - "8081:8081"
+      - "8085:8080"
     platform: linux/amd64
     networks:
       - dibbs_network
