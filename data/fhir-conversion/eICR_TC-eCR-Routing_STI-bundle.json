@@ -6,10 +6,10 @@
       "type": "batch",
       "entry": [
         {
-          "fullUrl": "urn:uuid:2c03ce68-4c83-43e5-a0d3-db3a6d5e6285",
+          "fullUrl": "urn:uuid:b637297b-ed15-40cb-ba22-a3b4bc286a88",
           "resource": {
             "resourceType": "Composition",
-            "id": "2c03ce68-4c83-43e5-a0d3-db3a6d5e6285",
+            "id": "b637297b-ed15-40cb-ba22-a3b4bc286a88",
             "meta": {
               "profile": [
                 "http://hl7.org/fhir/us/ecr/StructureDefinition/eicr-composition"
@@ -29,14 +29,12 @@
                       "system": "http://loinc.org"
                     }
                   ]
-                },
-                "value": "55"
+                }
               }
             ],
             "extension": [
               {
-                "url": "http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber",
-                "valueString": "1"
+                "url": "http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber"
               }
             ],
             "status": "final",
@@ -49,16 +47,16 @@
                 }
               ]
             },
-            "date": "2019-12-10T08:41:03-04:00",
+            "date": "2019-02-08T17:22:46-04:00",
             "title": "Initial Public Health Case Report",
             "confidentiality": "N",
             "section": [
               {
-                "id": "e78f3fec-bb4a-5381-cf05-69427a18422e",
+                "id": "526baebe-ec05-54b5-42d1-cdc084249a1c",
                 "title": "Encounters",
                 "text": {
                   "status": "generated",
-                  "div": "<table><thead><tr><th>Encounter<\/th><th>Date(s)<\/th><th>Location<\/th><\/tr><\/thead><tbody><tr data-id='id_67f15a64-ff4f-44c1-ba3a-3e1b6e277e8c_ref'><td>Office outpatient visit 15 minutes<\/td><td>02/10/2019<\/td><td>TBDFacilityName<\/td><\/tr><tr><td><ul><li><table><thead><tr><\/tr><\/thead><tbody><tr><\/tr><\/tbody><\/table><\/li><\/ul><\/td><\/tr><\/tbody><\/table>"
+                  "div": "<table><thead><tr><th>Encounter<\/th><th>Date(s)<\/th><th>Location<\/th><\/tr><\/thead><tbody><tr data-id='id_2d72e0c7-7f36-4ca9-82a9-02933bd62a53_ref'><td>Office outpatient visit 15 minutes<\/td><td>02/10/2019<\/td><td>TBDFacilityName<\/td><\/tr><tr><td><ul><li><table><thead><tr><\/tr><\/thead><tbody><tr><\/tr><\/tbody><\/table><\/li><\/ul><\/td><\/tr><\/tbody><\/table>"
                 },
                 "code": {
                   "coding": [
@@ -143,11 +141,11 @@
                 "mode": "snapshot"
               },
               {
-                "id": "a076bea9-a9ca-af1b-8a31-ef1867dfb676",
+                "id": "86c888a7-c983-0db4-55ae-d1ad409de7e4",
                 "title": "Results",
                 "text": {
                   "status": "generated",
-                  "div": "<table><thead><tr><th>Results Panel<\/th><th>Date(s)<\/th><\/tr><\/thead><tbody><tr data-id='id_1b725785-576d-4e91-96d4-abe44a5fa957_ref'><td>Bordetella pertussis [Presence] in Sputum by Organism specific culture<\/td><td><\/td><\/tr><tr><td><ul><li><paragraph>*** In the table below, row entries with values under RCTC columns triggered this Electronic Initial Case Report (eICR)<\/paragraph><table><thead><tr><th>Test<\/th><th>Lab Test RCTC OID ***<\/th><th>Lab Test RCTC Version ***<\/th><th>Outcome<\/th><th>Date(s)<\/th><th>Lab Result RCTC OID ***<\/th><th>Lab Result RCTC Version ***<\/th><\/tr><\/thead><tbody><tr data-id='id_53aec782-8f2e-4634-b574-beead5bcaf97_ref'><td>Bordetella pertussis [Presence] in Sputum by Organism specific culture<\/td><td>2.16.840.1.114222.4.11.7508<\/td><td>20190617<\/td><td>Detected (qualifier value)<\/td><td><\/td><td><\/td><td><\/td><\/tr><\/tbody><\/table><\/li><\/ul><\/td><\/tr><\/tbody><\/table>"
+                  "div": "<table><thead><tr><th>Results Panel<\/th><th>Date(s)<\/th><\/tr><\/thead><tbody><tr data-id='id_f71a7477-f860-4a3c-a79e-5fe743cae1f4_ref'><td>Neisseria gonorrhoeae DNA [Presence] in Urethra by NAA with probe detection<\/td><td><\/td><\/tr><tr><td><ul><li><paragraph>*** In the table below, row entries with values under RCTC columns triggered this Electronic Initial Case Report (eICR)<\/paragraph><table><thead><tr><th>Test<\/th><th>Lab Test RCTC OID ***<\/th><th>Lab Test RCTC Version ***<\/th><th>Outcome<\/th><th>Date(s)<\/th><th>Lab Result RCTC OID ***<\/th><th>Lab Result RCTC Version ***<\/th><\/tr><\/thead><tbody><tr data-id='id_998576ea-7a30-4aa5-8f07-2662463ac620_ref'><td>Neisseria gonorrhoeae DNA [Presence] in Urethra by NAA with probe detection<\/td><td><\/td><td><\/td><td>Detected (qualifier value)<\/td><td>01/04/2016<\/td><td>2.16.840.1.114222.4.11.7508<\/td><td>20171013<\/td><\/tr><\/tbody><\/table><\/li><\/ul><\/td><\/tr><\/tbody><\/table>"
                 },
                 "code": {
                   "coding": [
@@ -161,16 +159,16 @@
                 "mode": "snapshot",
                 "entry": [
                   {
-                    "reference": "Observation/6fa716ad-5c5e-4af7-84c8-7dc7914517d1"
+                    "reference": "Observation/bc888e57-ff9b-26fe-853b-30ab7812108f"
                   }
                 ]
               },
               {
-                "id": "ab3e3d8b-355c-99b0-d477-3f1298b636e0",
+                "id": "cb3e8d37-1c9a-dbac-2784-678565fa07ea",
                 "title": "Plan of Treatment",
                 "text": {
                   "status": "generated",
-                  "div": "<paragraph>*** In the table below, row entries with values under RCTC columns triggered this Electronic Initial Case Report (eICR)<\/paragraph><table><thead><tr><th>Lab Test Order<\/th><th>Code<\/th><th>CodeSystem<\/th><th>RCTC OID ***<\/th><th>RCTC Version ***<\/th><th>Ordered Date<\/th><\/tr><\/thead><tbody><tr data-id='id_0b8ea3a4-3e1e-4003-b807-6ce992180d39_ref'><td>Bordetella pertussis [Presence] in Sputum by Organism specific culture<\/td><td>43890-3<\/td><td>LOINC<\/td><td><\/td><td><\/td><td>02/10/2019<\/td><\/tr><\/tbody><\/table>"
+                  "div": "<paragraph>*** In the table below, row entries with values under RCTC columns triggered this Electronic Initial Case Report (eICR)<\/paragraph><table><thead><tr><th>Lab Test Order<\/th><th>Code<\/th><th>CodeSystem<\/th><th>RCTC OID ***<\/th><th>RCTC Version ***<\/th><th>Ordered Date<\/th><\/tr><\/thead><tbody><tr data-id='id_158cfe54-cbe1-42ce-b5ae-98a92d2d9e3d_ref'><td>Neisseria gonorrhoeae DNA [Presence] in Urethra by NAA with probe detection<\/td><td>21415-5<\/td><td>LOINC<\/td><td><\/td><td><\/td><td>02/10/2019<\/td><\/tr><\/tbody><\/table>"
                 },
                 "code": {
                   "coding": [
@@ -184,11 +182,11 @@
                 "mode": "snapshot"
               },
               {
-                "id": "895fd03a-5e4d-4ffb-c582-e7884dc381ff",
+                "id": "27956361-d0f0-cbbe-8862-0f254d2c96a2",
                 "title": "Social History",
                 "text": {
                   "status": "generated",
-                  "div": "<table><thead><tr><th>Birth Sex<\/th><th>Value<\/th><th>Date<\/th><\/tr><\/thead><tbody><tr><td>Sex Assigned At Birth<\/td><td>Female<\/td><td>01/05/2018<\/td><\/tr><\/tbody><\/table><table><thead><tr><th>Social History Observation Type<\/th><th>Value<\/th><th>Dates(s)<\/th><\/tr><\/thead><tbody><tr data-id='id_e3e5d047-4b48-4993-bbcc-4d40592c6c51_ref'><td>Occupation / Employment details<\/td><td><\/td><td><\/td><\/tr><tr><td>Pregnancy Status<\/td><td>No<\/td><td><\/td><\/tr><\/tbody><\/table>"
+                  "div": "<table><thead><tr><th>Birth Sex<\/th><th>Value<\/th><th>Date<\/th><\/tr><\/thead><tbody><tr><td>Sex Assigned At Birth<\/td><td>Female<\/td><td>12/27/1986<\/td><\/tr><\/tbody><\/table><table><thead><tr><th>Social History Observation Type<\/th><th>Value<\/th><th>Dates(s)<\/th><\/tr><\/thead><tbody><tr data-id='id_0d32d895-8df0-475b-9a4f-10757c6cb9e1_ref'><td>Occupation / Employment details<\/td><td><\/td><td><\/td><\/tr><tr><td>Pregnancy Status<\/td><td>Unknown<\/td><td><\/td><\/tr><\/tbody><\/table>"
                 },
                 "code": {
                   "coding": [
@@ -202,7 +200,7 @@
                 "mode": "snapshot"
               },
               {
-                "id": "4b8914d6-7c47-5346-e289-7f8786a9dba1",
+                "id": "b36a550e-50a9-5e05-b71a-88dd586bc7d4",
                 "title": "Reportability Response Information Section",
                 "text": {
                   "status": "generated",
@@ -222,7 +220,7 @@
                           }
                         ]
                       },
-                      "value": "e12f1024-d89b-41fa-ae0d-5147d000c95d"
+                      "value": "fdb24c25-5bcb-49a0-b148-db9968fde558"
                     }
                   },
                   {
@@ -249,51 +247,37 @@
                 },
                 "entry": [
                   {
-                    "display": "Relevant Reportable Condition Observation - Pertussis (disorder)",
-                    "reference": "Observation/f74c3489-e654-47e5-a8cf-449804b4971e"
+                    "display": "Relevant Reportable Condition Observation - Gonorrhea (disorder)",
+                    "reference": "Observation/31a59bfc-f9e1-4bd1-ac49-c041fbe38339"
                   }
                 ]
               }
             ],
             "subject": {
-              "reference": "Patient/cdcfcaff-79b0-4209-acaf-234c84d159ea"
+              "reference": "Patient/3613bb24-66fe-420e-8689-9285b37f697c"
             },
-            "relatesTo": [
-              {
-                "code": "replaces",
-                "targetReference": {
-                  "reference": "Composition/c34356e3-e6e7-4905-b239-c26c6e493921"
-                },
-                "extension": [
-                  {
-                    "url": "http://hl7.org/fhir/StructureDefinition/composition-clinicaldocument-versionNumber",
-                    "valueString": "1"
-                  }
-                ]
-              }
-            ],
             "encounter": {
-              "reference": "Encounter/3ad795f5-b983-ab6b-c944-0e566d03cd9f"
+              "reference": "Encounter/c20ce0ff-081b-4f7e-cf12-7b47ccd6b304"
             },
             "custodian": {
               "reference": "Organization/daf02ea4-2048-a2c3-e24f-7313a37bd19b"
             },
             "author": [
               {
-                "reference": "Device/1a3298d9-e090-a7a3-5f58-6ce68c7fc88a"
+                "reference": "Device/d8a3e46a-e8cd-9c3c-87b0-7537d99b940e"
               }
             ]
           },
           "request": {
             "method": "PUT",
-            "url": "Composition/2c03ce68-4c83-43e5-a0d3-db3a6d5e6285"
+            "url": "Composition/b637297b-ed15-40cb-ba22-a3b4bc286a88"
           }
         },
         {
-          "fullUrl": "urn:uuid:3ad795f5-b983-ab6b-c944-0e566d03cd9f",
+          "fullUrl": "urn:uuid:c20ce0ff-081b-4f7e-cf12-7b47ccd6b304",
           "resource": {
             "resourceType": "Encounter",
-            "id": "3ad795f5-b983-ab6b-c944-0e566d03cd9f",
+            "id": "c20ce0ff-081b-4f7e-cf12-7b47ccd6b304",
             "status": "unknown",
             "class": {
               "code": "99213",
@@ -311,13 +295,13 @@
               "end": "2019-02-10"
             },
             "subject": {
-              "reference": "Patient/cdcfcaff-79b0-4209-acaf-234c84d159ea"
+              "reference": "Patient/3613bb24-66fe-420e-8689-9285b37f697c"
             },
             "location": [
               {
                 "id": "2.16.840.1.113883.4.6",
                 "location": {
-                  "reference": "Location/e3bc8d57-0446-bb69-4efa-00e2124fd1bd",
+                  "reference": "Location/d7de7f0d-c7e8-8e98-3cfd-bcdf31872b25",
                   "display": "TBDFacilityName"
                 },
                 "extension": [
@@ -361,18 +345,18 @@
           },
           "request": {
             "method": "PUT",
-            "url": "Encounter/3ad795f5-b983-ab6b-c944-0e566d03cd9f"
+            "url": "Encounter/c20ce0ff-081b-4f7e-cf12-7b47ccd6b304"
           }
         },
         {
-          "fullUrl": "urn:uuid:e3bc8d57-0446-bb69-4efa-00e2124fd1bd",
+          "fullUrl": "urn:uuid:d7de7f0d-c7e8-8e98-3cfd-bcdf31872b25",
           "resource": {
             "resourceType": "Location",
-            "id": "e3bc8d57-0446-bb69-4efa-00e2124fd1bd",
+            "id": "d7de7f0d-c7e8-8e98-3cfd-bcdf31872b25",
             "identifier": [
               {
                 "system": "http://hl7.org/fhir/sid/us-npi",
-                "value": "5959"
+                "value": "1347"
               }
             ],
             "name": "TBDFacilityName",
@@ -411,7 +395,7 @@
           },
           "request": {
             "method": "PUT",
-            "url": "Location/e3bc8d57-0446-bb69-4efa-00e2124fd1bd"
+            "url": "Location/d7de7f0d-c7e8-8e98-3cfd-bcdf31872b25"
           }
         },
         {
@@ -442,7 +426,7 @@
             "name": [
               {
                 "use": "usual",
-                "text": "TBDFacilityName            "
+                "text": "TBDFacilityName"
               }
             ],
             "address": [
@@ -473,10 +457,10 @@
           }
         },
         {
-          "fullUrl": "urn:uuid:ea5fdf2b-51d2-c4da-5b00-9f58379a72ba",
+          "fullUrl": "urn:uuid:50f3c505-0e03-09e3-1ce9-772f460361c2",
           "resource": {
             "resourceType": "Organization",
-            "id": "ea5fdf2b-51d2-c4da-5b00-9f58379a72ba",
+            "id": "50f3c505-0e03-09e3-1ce9-772f460361c2",
             "meta": {
               "profile": [
                 "http://hl7.org/fhir/us/ecr/StructureDefinition/rr-routing-entity-organization"
@@ -497,18 +481,18 @@
                 ]
               }
             ],
-            "name": "Houston Health Department"
+            "name": "Utah Department of Health"
           },
           "request": {
             "method": "PUT",
-            "url": "Organization/ea5fdf2b-51d2-c4da-5b00-9f58379a72ba"
+            "url": "Organization/50f3c505-0e03-09e3-1ce9-772f460361c2"
           }
         },
         {
-          "fullUrl": "urn:uuid:f74c3489-e654-47e5-a8cf-449804b4971e",
+          "fullUrl": "urn:uuid:31a59bfc-f9e1-4bd1-ac49-c041fbe38339",
           "resource": {
             "resourceType": "Observation",
-            "id": "f74c3489-e654-47e5-a8cf-449804b4971e",
+            "id": "31a59bfc-f9e1-4bd1-ac49-c041fbe38339",
             "meta": {
               "profile": [
                 "http://hl7.org/fhir/us/ecr/StructureDefinition/rr-reportability-information-observation"
@@ -520,7 +504,7 @@
             "identifier": [
               {
                 "system": "urn:ietf:rfc:3986",
-                "value": "urn:uuid:f74c3489-e654-47e5-a8cf-449804b4971e"
+                "value": "urn:uuid:31a59bfc-f9e1-4bd1-ac49-c041fbe38339"
               }
             ],
             "status": "final",
@@ -541,8 +525,8 @@
             "valueCodeableConcept": {
               "coding": [
                 {
-                  "code": "27836007",
-                  "display": "Pertussis (disorder)",
+                  "code": "15628003",
+                  "display": "Gonorrhea (disorder)",
                   "system": "http://snomed.info/sct"
                 }
               ]
@@ -550,27 +534,23 @@
             "extension": [
               {
                 "url": "http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-determination-of-reportability-rule-extension",
-                "valueString": "Age <= 2 years"
+                "valueString": "All result values for laboratory tests specific                                for detecting of Neisseria gonorrhoeae nucleic acid in a clinical                                specimen by any method"
               },
               {
                 "url": "http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-determination-of-reportability-rule-extension",
-                "valueString": "Identification of Bordetella pertussis by culture                                method in a clinical specimen, including identification tests                                performed on an isolate"
-              },
-              {
-                "url": "http://hl7.org/fhir/us/ecr/StructureDefinition/us-ph-determination-of-reportability-rule-extension",
-                "valueString": "Lab test ordered for (1) identification of                                Bordetella pertussis in a clinical specimen by organism-specific                                culture method, including identification tests performed on an                                isolate; or (2) detection of Bordetella pertussis nucleic acid in a                                clinical specimen by any method, excluding 'respiratory pathogen                                panels' (i.e., panels that include common respiratory pathogens                                other than Bordetella pertussis and Bordetella parapertussis)"
+                "valueString": "Detection of Neisseria gonorrhoeae nucleic acid                                by any method in a clinical specimen, including the following                                methods: - nucleic acid by hybridization with a nucleic acid probe -                                nucleic acid amplification (e.g., PCR)"
               }
             ],
             "performer": [
               {
-                "reference": "Organization/ea5fdf2b-51d2-c4da-5b00-9f58379a72ba",
-                "display": "Houston Health Department"
+                "reference": "Organization/50f3c505-0e03-09e3-1ce9-772f460361c2",
+                "display": "Utah Department of Health"
               }
             ]
           },
           "request": {
             "method": "PUT",
-            "url": "Observation/f74c3489-e654-47e5-a8cf-449804b4971e"
+            "url": "Observation/31a59bfc-f9e1-4bd1-ac49-c041fbe38339"
           }
         },
         {
@@ -615,10 +595,10 @@
           }
         },
         {
-          "fullUrl": "urn:uuid:1a3298d9-e090-a7a3-5f58-6ce68c7fc88a",
+          "fullUrl": "urn:uuid:d8a3e46a-e8cd-9c3c-87b0-7537d99b940e",
           "resource": {
             "resourceType": "Device",
-            "id": "1a3298d9-e090-a7a3-5f58-6ce68c7fc88a",
+            "id": "d8a3e46a-e8cd-9c3c-87b0-7537d99b940e",
             "identifier": [
               {
                 "system": "urn:ietf:rfc:3986",
@@ -642,14 +622,14 @@
           },
           "request": {
             "method": "PUT",
-            "url": "Device/1a3298d9-e090-a7a3-5f58-6ce68c7fc88a"
+            "url": "Device/d8a3e46a-e8cd-9c3c-87b0-7537d99b940e"
           }
         },
         {
-          "fullUrl": "urn:uuid:cdcfcaff-79b0-4209-acaf-234c84d159ea",
+          "fullUrl": "urn:uuid:3613bb24-66fe-420e-8689-9285b37f697c",
           "resource": {
             "resourceType": "Patient",
-            "id": "cdcfcaff-79b0-4209-acaf-234c84d159ea",
+            "id": "3613bb24-66fe-420e-8689-9285b37f697c",
             "meta": {
               "profile": [
                 "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
@@ -667,14 +647,15 @@
             "name": [
               {
                 "use": "official",
-                "family": "Willy",
+                "family": "Everywoman",
                 "given": [
-                  "Baby"
+                  "Eve"
                 ]
               }
             ],
-            "birthDate": "2018-01-05",
+            "birthDate": "1986-12-27",
             "deceasedBoolean": false,
+            "gender": "female",
             "extension": [
               {
                 "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
@@ -726,6 +707,11 @@
                 "system": "phone",
                 "value": "555-555-2003",
                 "use": "home"
+              },
+              {
+                "system": "email",
+                "value": "eeeverywoman@email.com",
+                "use": "home"
               }
             ],
             "communication": [
@@ -745,7 +731,7 @@
           },
           "request": {
             "method": "PUT",
-            "url": "Patient/cdcfcaff-79b0-4209-acaf-234c84d159ea"
+            "url": "Patient/3613bb24-66fe-420e-8689-9285b37f697c"
           }
         },
         {
@@ -753,7 +739,7 @@
           "resource": {
             "resourceType": "CareTeam",
             "subject": {
-              "reference": "Patient/cdcfcaff-79b0-4209-acaf-234c84d159ea"
+              "reference": "Patient/3613bb24-66fe-420e-8689-9285b37f697c"
             },
             "meta": {
               "source": [
@@ -769,7 +755,7 @@
             "status": "unknown",
             "intent": "proposal",
             "subject": {
-              "reference": "Patient/cdcfcaff-79b0-4209-acaf-234c84d159ea"
+              "reference": "Patient/3613bb24-66fe-420e-8689-9285b37f697c"
             },
             "meta": {
               "source": [
@@ -783,32 +769,36 @@
           }
         },
         {
-          "fullUrl": "urn:uuid:55e1d41f-bea9-cb4c-f2eb-8c6f76c9f50e",
+          "fullUrl": "urn:uuid:75b0088b-cafc-0be1-5375-1a45470b5251",
           "resource": {
             "resourceType": "DiagnosticReport",
-            "id": "55e1d41f-bea9-cb4c-f2eb-8c6f76c9f50e",
+            "id": "75b0088b-cafc-0be1-5375-1a45470b5251",
             "identifier": [
               {
                 "system": "urn:ietf:rfc:3986",
-                "value": "urn:uuid:1b725785-576d-4e91-96d4-abe44a5fa957"
+                "value": "urn:uuid:f71a7477-f860-4a3c-a79e-5fe743cae1f4"
               }
             ],
             "status": "final",
             "code": {
               "coding": [
                 {
-                  "code": "43890-3",
-                  "display": "Bordetella pertussis [Presence] in Sputum by Organism specific culture",
+                  "code": "21415-5",
+                  "display": "Neisseria gonorrhoeae DNA [Presence] in Urethra by NAA with probe detection",
                   "system": "http://loinc.org"
                 }
               ]
             },
+            "effectivePeriod": {
+              "start": "2016-01-04",
+              "end": "2016-01-04"
+            },
             "subject": {
-              "reference": "Patient/cdcfcaff-79b0-4209-acaf-234c84d159ea"
+              "reference": "Patient/3613bb24-66fe-420e-8689-9285b37f697c"
             },
             "result": [
               {
-                "reference": "Observation/6fa716ad-5c5e-4af7-84c8-7dc7914517d1"
+                "reference": "Observation/bc888e57-ff9b-26fe-853b-30ab7812108f"
               }
             ],
             "meta": {
@@ -819,14 +809,14 @@
           },
           "request": {
             "method": "PUT",
-            "url": "DiagnosticReport/55e1d41f-bea9-cb4c-f2eb-8c6f76c9f50e"
+            "url": "DiagnosticReport/75b0088b-cafc-0be1-5375-1a45470b5251"
           }
         },
         {
-          "fullUrl": "urn:uuid:6fa716ad-5c5e-4af7-84c8-7dc7914517d1",
+          "fullUrl": "urn:uuid:bc888e57-ff9b-26fe-853b-30ab7812108f",
           "resource": {
             "resourceType": "Observation",
-            "id": "6fa716ad-5c5e-4af7-84c8-7dc7914517d1",
+            "id": "bc888e57-ff9b-26fe-853b-30ab7812108f",
             "meta": {
               "profile": [
                 "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
@@ -838,7 +828,7 @@
             "identifier": [
               {
                 "system": "urn:ietf:rfc:3986",
-                "value": "urn:uuid:53aec782-8f2e-4634-b574-beead5bcaf97"
+                "value": "urn:uuid:998576ea-7a30-4aa5-8f07-2662463ac620"
               }
             ],
             "category": [
@@ -855,12 +845,13 @@
             "code": {
               "coding": [
                 {
-                  "code": "43890-3",
-                  "display": "Bordetella pertussis [Presence] in Sputum by Organism specific culture",
+                  "code": "21415-5",
+                  "display": "Neisseria gonorrhoeae DNA [Presence] in Urethra by NAA with probe detection",
                   "system": "http://loinc.org"
                 }
               ]
             },
+            "effectiveDateTime": "2016-01-04",
             "valueCodeableConcept": {
               "coding": [
                 {
@@ -871,12 +862,12 @@
               ]
             },
             "subject": {
-              "reference": "Patient/cdcfcaff-79b0-4209-acaf-234c84d159ea"
+              "reference": "Patient/3613bb24-66fe-420e-8689-9285b37f697c"
             }
           },
           "request": {
             "method": "PUT",
-            "url": "Observation/6fa716ad-5c5e-4af7-84c8-7dc7914517d1"
+            "url": "Observation/bc888e57-ff9b-26fe-853b-30ab7812108f"
           }
         },
         {
@@ -895,10 +886,10 @@
           }
         },
         {
-          "fullUrl": "urn:uuid:ff69289b-ebdb-4db3-281e-13f1d66b81da",
+          "fullUrl": "urn:uuid:9391910f-2e1f-22c6-eb9d-010ccaf98068",
           "resource": {
             "resourceType": "Observation",
-            "id": "ff69289b-ebdb-4db3-281e-13f1d66b81da",
+            "id": "9391910f-2e1f-22c6-eb9d-010ccaf98068",
             "meta": {
               "profile": [
                 "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
@@ -927,7 +918,7 @@
                 }
               ]
             },
-            "effectiveDateTime": "2018-01-05",
+            "effectiveDateTime": "1986-12-27",
             "valueCodeableConcept": {
               "coding": [
                 {
@@ -938,12 +929,68 @@
               ]
             },
             "subject": {
-              "reference": "Patient/cdcfcaff-79b0-4209-acaf-234c84d159ea"
+              "reference": "Patient/3613bb24-66fe-420e-8689-9285b37f697c"
             }
           },
           "request": {
             "method": "PUT",
-            "url": "Observation/ff69289b-ebdb-4db3-281e-13f1d66b81da"
+            "url": "Observation/9391910f-2e1f-22c6-eb9d-010ccaf98068"
+          }
+        },
+        {
+          "fullUrl": "urn:uuid:814a4da1-50f9-ca59-195a-61243c320221",
+          "resource": {
+            "resourceType": "Observation",
+            "id": "814a4da1-50f9-ca59-195a-61243c320221",
+            "meta": {
+              "profile": [
+                "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
+              ],
+              "source": [
+                "ecr"
+              ]
+            },
+            "identifier": [
+              {
+                "system": "urn:oid:2.16.840.1.113883.19",
+                "value": "123456789"
+              }
+            ],
+            "category": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                    "code": "social-history"
+                  }
+                ]
+              }
+            ],
+            "status": "final",
+            "code": {
+              "coding": [
+                {
+                  "code": "ASSERTION",
+                  "system": "urn:oid:2.16.840.1.113883.5.4"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "77386006",
+                  "display": "Pregnant",
+                  "system": "http://snomed.info/sct"
+                }
+              ]
+            },
+            "subject": {
+              "reference": "Patient/3613bb24-66fe-420e-8689-9285b37f697c"
+            }
+          },
+          "request": {
+            "method": "PUT",
+            "url": "Observation/814a4da1-50f9-ca59-195a-61243c320221"
           }
         },
         {

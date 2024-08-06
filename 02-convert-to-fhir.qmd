@@ -83,7 +83,7 @@ send_post_request <- function(api_url, data) {
 
 save_json_response <- function(response, file_id, output_dir) {
   json_response <- resp_body_json(response)
-  json_file_path <- path(output_dir, paste0(file_id, "_bundle.json"))
+  json_file_path <- path(output_dir, str_glue("{file_id}-bundle.json"))
   write_json(json_response, json_file_path, pretty = TRUE, auto_unbox = TRUE)
 
   return(json_file_path)

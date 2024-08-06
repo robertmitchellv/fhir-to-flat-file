@@ -42,8 +42,21 @@ message_parser <- "http://localhost:8085/parse_message"
 ```{r}
 request(health_check) |>
   req_perform() |>
-  resp_body_json()
+  resp_body_json() |>
+  str()
 ```
+
+### Check parsing schemas
+
+```{r}
+request(health_check) |>
+  req_url_path_append("/schemas") |>
+  req_perform() |>
+  resp_body_json() |>
+  str()
+```
+
+So we can see some different parsing schemas that are available to use. We can create our own and uplod them to the API to use. For now, we'll stick with the `ecr.json` parsing schema.
 
 ### Flatten FHIR bundles into `csv` files
 
