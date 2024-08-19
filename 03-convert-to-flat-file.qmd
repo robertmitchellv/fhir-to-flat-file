@@ -33,8 +33,10 @@ library(tidyverse)
 ### Set up
 
 ```{r}
-health_check <- "http://localhost:8085/"
-message_parser <- "http://localhost:8085/parse_message"
+message_parser <- "http://localhost:8085"
+health_check <- str_glue("{message_parser}/")
+parsing_schema <- str_glue("{message_parser}/schemas")
+message_parser <- str_glue("{message_parser}/parse_message")
 ```
 
 ### Health check
@@ -42,21 +44,45 @@ message_parser <- "http://localhost:8085/parse_message"
 ```{r}
 request(health_check) |>
   req_perform() |>
-  resp_body_json() |>
-  str()
+  resp_body_json()
 ```
 
 ### Check parsing schemas
 
 ```{r}
+request(parsing_schema) |>
+  req_perform() |>
+  resp_body_json()
+```
+
+So we can see some different parsing schemas that are available to use. We can create our own and uplod it to the API to use. If you notice, there is a `config` directory. Inside this directory is a file named `ecr-parsing-schema.json`. Let's upload this schema to the API and use it for parsing the FHIR bundles we just created.
+
+```{r}
+ecr_parsing_schema <- read_json("config/ecr-parsing-schema.json")
+
+request(parsing_schema) |>
+  req_url_path_append("/ecr-parsing-schema.json") |>
+  req_method("PUT") |>
+    req_headers(
+    "Content-Type" = "application/json"
+  ) |>
+  req_body_json(data = list(
+    parsing_schema = ecr_parsing_schema,
+    overwrite = TRUE
+  )) |>
+  req_perform()
+```
+
+Let's check that our new parsing schema is in the list of available parsing schemas:
+
+```{r}
 request(health_check) |>
   req_url_path_append("/schemas") |>
   req_perform() |>
-  resp_body_json() |>
-  str()
+  resp_body_json()
 ```
 
-So we can see some different parsing schemas that are available to use. We can create our own and uplod them to the API to use. For now, we'll stick with the `ecr.json` parsing schema.
+Great! Now we can use this parsing schema in the next step.
 
 ### Flatten FHIR bundles into `csv` files
 
@@ -86,7 +112,7 @@ send_request <- function(fhir_bundle) {
     req_body_json(list(
       message_format = "fhir",
       message_type = "ecr",
-      parsing_schema_name = "ecr.json",
+      parsing_schema_name = "ecr-parsing-schema.json",
       message = fhir_bundle
     )) |>
     req_perform()

@@ -1,5 +1,6 @@
 ---
 title: "Convert to FHIR"
+engine: knitr
 ---
 
 ## Spining up the services
@@ -33,8 +34,9 @@ library(tidyverse)
 ### Set up
 
 ```{r}
-health_check <- "http://localhost:8082/fhir-converter/"
-fhir_converter <- "http://localhost:8082/fhir-converter/convert-to-fhir"
+fhir_converter <- "http://localhost:8082"
+health_check <- str_glue("{fhir_converter}/")
+convert_to_fhir <- str_glue("{fhir_converter}/convert-to-fhir")
 ```
 
 ### Health check
@@ -145,5 +147,5 @@ process_files <- function(data_dir, output_dir, api_url) {
 ```
 
 ```{r}
-process_files(data_dir = ecr_data_directory, output_dir = fhir_bundle_directory, api_url = fhir_converter)
+process_files(data_dir = ecr_data_directory, output_dir = fhir_bundle_directory, api_url = convert_to_fhir)
 ```
